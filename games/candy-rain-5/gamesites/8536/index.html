@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="//games.softgames.com/candy-rain-5/">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+    <title>Candy Rain 5</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Phaser App">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.01">
+
+    <link rel="apple-touch-icon" href="/candy-rain-5/favicon.png">
+    <link rel="shortcut icon" href="/candy-rain-5/favicon.ico">
+
+    <meta name="game-slug" content="candy-rain-5">
+    <meta name="splashscreen-game-url" content="https://d1bjj4kazoovdg.cloudfront.net/assets/games/candy-rain-5/teaser.jpg">
+    <meta name="splashscreen-big-game-url" content="https://d1bjj4kazoovdg.cloudfront.net/assets/games/candy-rain-5/teaser@2x.jpg">
+    <meta name="description" content="Candy Rain Episode V - The Candy strikes back with gorgeous sweet graphics and several hundreds of brand new challenging levels and missions!
+ In the latest entry of the famous match-three video game series it is still your task to combine at least three of the delicious sweets to make them disappear. Keep matching until you reach the goal to advance! Make sure to earn three stars for each level to unlock the gates to even more levels. Collect candies, waffles and chests full of coins! Break free candies caught ice cubes, chocolate or sticky honey! If you match more than three candies of the same color you will receive powerful items that will help you to reach the level goals in no time. Come back every day to try the daily challenge and to receive gifts. Play Candy Rain 5 now for free and enjoy the cutest rain of all time!">
+    <meta name="keywords" content="Alien,Animal,Ant,Arcade,Army,Balloons,Bicycle,Blocks,Boat,Bomb,Bounce,Bricks,Bridge,Bubble,Bubble Shooter,Burger,Candy,Cannon,Cars,Cartoon,Chicken,Christmas,Circus,Clicker,Collecting,Coloring,Diving,Dog,Dragons,Dungeon,Endless,Escape,Evade,Fantasy,Farm,Fighting,Fish,Flying,Food,Fruit,Halloween,Jumping,Magic,Medieval,Mini games,Monsters,Ninja,Obstacle,Perception,Pipe,Platforms,RPG,Racing,Reaction,Rescue,Retro,Role Playing,Rope,Running,Scary,Search and Destroy,Shooting,Skill,Snake,Snow,Space,Spaceship,Stealth,Strategy,Surfing,Tetris,Thief,Timing,Toss,War,Wizards,Xmas,Zombies,Brain,Combine,Diamond,Jewels,Puzzle,Thinking">
+    <meta name="game-id" content="996">
+    <meta name="is-cocos-2d" content="false">
+    <meta name="supports-ad-play-button" content="false">
+
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8">
+
+
+
+
+
+    <style>
+        #focusHelper {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            display: none;
+            background-color: #000000;
+            opacity: 0;
+            top: 0px;
+            left: 0px;
+        }
+		.button-image {
+		display:none,
+		
+		}
+    </style>
+
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="locale" content="undefined">
+    <meta name="publisher-id" content="8536">
+    <meta name="publisher-name" content="pub-16104-16209">
+    <meta name="publisher-splash" content="">
+    <meta name="publisher-url" content="www.FOG.com">
+    <meta name="publisher-specific-queries" content="%22%22">
+    <meta name="publisher-ga-codes" content="">
+    <meta name="build-hash" content="#live:3c59decd98ef08bbab49_1648373547724👮‍♀️🦝🧣">
+    <meta name="country-code" content="GB">
+    <meta name="game-data" content="%7B%22gameId%22:996,%22gameSlug%22:%22candy-rain-5%22,%22gameName%22:%22Candy%20Rain%205%22,%22gameDescription%22:%22Candy%20Rain%20Episode%20V%20-%20The%20Candy%20strikes%20back%20with%20gorgeous%20sweet%20graphics%20and%20several%20hundreds%20of%20brand%20new%20challenging%20levels%20and%20missions!%5Cn%20In%20the%20latest%20entry%20of%20the%20famous%20match-three%20video%20game%20series%20it%20is%20still%20your%20task%20to%20combine%20at%20least%20three%20of%20the%20delicious%20sweets%20to%20make%20them%20disappear.%20Keep%20matching%20until%20you%20reach%20the%20goal%20to%20advance!%20Make%20sure%20to%20earn%20three%20stars%20for%20each%20level%20to%20unlock%20the%20gates%20to%20even%20more%20levels.%20Collect%20candies,%20waffles%20and%20chests%20full%20of%20coins!%20Break%20free%20candies%20caught%20ice%20cubes,%20chocolate%20or%20sticky%20honey!%20If%20you%20match%20more%20than%20three%20candies%20of%20the%20same%20color%20you%20will%20receive%20powerful%20items%20that%20will%20help%20you%20to%20reach%20the%20level%20goals%20in%20no%20time.%20Come%20back%20every%20day%20to%20try%20the%20daily%20challenge%20and%20to%20receive%20gifts.%20Play%20Candy%20Rain%205%20now%20for%20free%20and%20enjoy%20the%20cutest%20rain%20of%20all%20time!%22,%22gameKeywords%22:%5B%22Alien%22,%22Animal%22,%22Ant%22,%22Arcade%22,%22Army%22,%22Balloons%22,%22Bicycle%22,%22Blocks%22,%22Boat%22,%22Bomb%22,%22Bounce%22,%22Bricks%22,%22Bridge%22,%22Bubble%22,%22Bubble%20Shooter%22,%22Burger%22,%22Candy%22,%22Cannon%22,%22Cars%22,%22Cartoon%22,%22Chicken%22,%22Christmas%22,%22Circus%22,%22Clicker%22,%22Collecting%22,%22Coloring%22,%22Diving%22,%22Dog%22,%22Dragons%22,%22Dungeon%22,%22Endless%22,%22Escape%22,%22Evade%22,%22Fantasy%22,%22Farm%22,%22Fighting%22,%22Fish%22,%22Flying%22,%22Food%22,%22Fruit%22,%22Halloween%22,%22Jumping%22,%22Magic%22,%22Medieval%22,%22Mini%20games%22,%22Monsters%22,%22Ninja%22,%22Obstacle%22,%22Perception%22,%22Pipe%22,%22Platforms%22,%22RPG%22,%22Racing%22,%22Reaction%22,%22Rescue%22,%22Retro%22,%22Role%20Playing%22,%22Rope%22,%22Running%22,%22Scary%22,%22Search%20and%20Destroy%22,%22Shooting%22,%22Skill%22,%22Snake%22,%22Snow%22,%22Space%22,%22Spaceship%22,%22Stealth%22,%22Strategy%22,%22Surfing%22,%22Tetris%22,%22Thief%22,%22Timing%22,%22Toss%22,%22War%22,%22Wizards%22,%22Xmas%22,%22Zombies%22,%22Brain%22,%22Combine%22,%22Diamond%22,%22Jewels%22,%22Puzzle%22,%22Thinking%22%5D,%22gameLanguages%22:%5B%22english%22%5D,%22gameIsCrossword%22:false,%22hasSdVersion%22:true,%22crosswordUseGISNameOnWelcomeScreen%22:false,%22crosswordDisablePrint%22:false,%22crosswordDisableAutocheck%22:true,%22crosswordDisableCalendar%22:false,%22crosswordDisableHelp%22:false,%22crosswordDisableTimer%22:false%7D">
+    <meta name="using-fast-preroll-flow" content="true">
+    <script type="text/javascript">
+        window.onerror = function(e) {
+            console.log("caught error: " + e);
+            return true;
+        }
+    </script>
+</head>
+
+<body onload="initGame()">
+    <div id="adContainer" class="horizontal">
+        <div id="adPlaceholder" class="desktop">
+        </div>
+    </div>
+
+    <div id="gameFontPreload">
+        <div style="font-family: ComicSansBold" class="fontPreload">.</div>
+    </div>
+
+    <div id="focusHelper"></div>
+
+
+
+
+    <script>
+        window._game_loading_timer = Date.now()
+    </script>
+    <script src="https://games.softgames.com/sdk/sg-web-sdk.1.min.js" id="sg-sdk"></script>
+    <script src="js/custom-phaser.min.js"></script>
+    <script src="js/game.js"></script>
+    <script>
+        window.addEventListener("blur", function() {
+            document.getElementById('focusHelper').style['display'] = "block"
+        })
+        window.addEventListener("focus", function() {
+            document.getElementById('focusHelper').style['display'] = "none"
+        })
+    </script>
+    <script type="text/javascript" src="https://platform-modules-sgweb.gamedistribution.com/p2-module-manager-client.js"></script>
+    <script type="text/javascript" src="https://platform-modules-sgweb.gamedistribution.com/preroll-client.js"></script>
+</body>
+
+</html>
